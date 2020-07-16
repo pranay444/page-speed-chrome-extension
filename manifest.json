@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Page Speed Analyzer",
+  "description": "This extension will analyze a page using Google page Speed",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "speed.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
